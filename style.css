@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#menu-superior{
+    background-color: #303030;
+    color: #ffffff;
+}
+#titulo-menu-superior{
+    font-size: 55px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+#texto-menu-superior{
+font-size: 20px;
+padding-left: 30px;
+padding-top: 10px;
+padding-bottom: 100px;
+}
+#menu-informativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+    background-color: #F9F9F9;
+    
+}
+.titulo-informativo{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.texto-informativo{
+    margin-left: 60px;
+}
+#sobre-empresa{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px; 
+     
+}
+#textos-sobre{
+    margin-top: 180px;
+}
+#titulo-sobre{
+    font-size: 32px;
+}
+#texto-sobre{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#formulario{
+ background-color: #303030;
+ text-align: center;
+ padding: 30px;
+ 
+}
+#titulo-formulario{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: bolder;   
+}
+input{
+    
+    background-color: #FFFFFF;
+    color: #0000008a; 
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 20px;
+}
+button{
+    background-color: #c07212;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 15px;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#bd7a28;
+    color: white;
+    transform:translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #c47b218f;
+
+}
